@@ -211,7 +211,7 @@ Example:
 
 .. code:: python
 
-    health_check_providers = {
+    HEALTH_CHECK_PROVIDERS = {
         'resource': (
             ('test', 'application.module.test_function', [1, 2], {'foo': 'bar'}),
         )
